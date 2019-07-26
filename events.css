@@ -1,0 +1,18 @@
+#container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#border--blue {
+    border: 1px solid blue;
+}
+
+#border--red {
+    border: 1px solid red;
+}
+
+#message, #border--red, #border--blue {
+    width: 50%;
+    height: 40px;
+    margin: 5px 20px;
+}
